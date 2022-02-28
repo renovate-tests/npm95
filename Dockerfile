@@ -1,2 +1,2 @@
-FROM node
+FROM node@sha256:e3b6896c517a81c973f6d08092f72b2318dd8c1ce42b3df032958d7cd1d3ce6d
 RUN something
