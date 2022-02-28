@@ -3,6 +3,7 @@
     "left-pad": "^1.0.0"
   },
   "renovate": {
+    "pinDigests": true,
     "rangeStrategy": "pin"
   }
 }
