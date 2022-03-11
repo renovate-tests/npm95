@@ -18,6 +18,7 @@
     "workflowRules": {
       "enabled": true
     },
-    "extends": ["github>whitesource/merge-confidence:beta"]
+    "extends": ["github>whitesource/merge-confidence:beta"],
+    "prHeader": "This Pull Request is brought to you by Stark Industry's IT security team.\n"
   }
 }
