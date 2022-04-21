@@ -17,7 +17,7 @@
     "enableRenovate": true,
     "vulnerabilityAlerts": {
       "semanticCommitType": "fix",
-      "prHeader": "SECURITY FIX!!"
+      "prBodyNotes": ["SECURITY FIX!!"]
     },
     "workflowRules": {
       "enabled": true
