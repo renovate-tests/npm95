@@ -15,11 +15,7 @@
   },
   "remediateSettings": {
     "enableRenovate": true,
-    "vulnerabilityAlerts": {
-      "semanticCommitType": "fix",
-      "prBodyColumns": ["Package", "Change"],
-      "prBodyNotes": ["SECURITY FIX!!"]
-    },
+    "semanticCommitType": "fix",
     "workflowRules": {
       "enabled": true
     },
