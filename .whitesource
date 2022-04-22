@@ -20,6 +20,11 @@
       "enabled": true
     },
     "extends": ["github>whitesource/merge-confidence:beta"],
+    "packageRules": [{
+      "matchDatasources": ["maven", "npm", "pypi"],
+      "matchUpdateTypes": ["patch", "minor", "major"],
+      "prBodyColumns": ["Package", "Change", "Age", "Confidence"]      
+    }],
     "prHeader": "This Pull Request is brought to you by Stark Industry's IT security team. [Learn more](https://en.wikipedia.org/wiki/Stark_Industries)\n"
   }
 }
